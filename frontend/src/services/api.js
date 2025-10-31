@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://msdproject-zmv0.onrender.com';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://msdproject-1-sel3.onrender.com';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
